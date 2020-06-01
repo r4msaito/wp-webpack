@@ -1,0 +1,35 @@
+{
+  "name": "wp-webpack",
+  "version": "1.0.0",
+  "description": "<!DOCTYPE html> <html lang=\"en\"> <head> \t<meta name=\"viewport\" content=\"width=device-width\" /> \t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /> \t<title>WordPress &#8250; ReadMe</title> \t<link rel=\"stylesheet\" href=\"wp-admin/css/install.css?ver=20100228\" type=\"text/css\" /> </head> <body> <h1 id=\"logo\"> \t<a href=\"https://wordpress.org/\"><img alt=\"WordPress\" src=\"wp-admin/images/wordpress-logo.png\" /></a> </h1> <p style=\"text-align: center\">Semantic Personal Publishing Platform</p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "r4m",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^3.5.3",
+    "eslint": "^7.1.0",
+    "eslint-loader": "^4.0.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "path": "^0.12.7",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge-and-include-globally": "^2.1.24"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
